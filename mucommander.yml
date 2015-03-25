@@ -4,8 +4,8 @@
 - hosts: workstation
 
   tasks:
-    - name: install XtraFinder
+    - name: install MuCommander
       mac_pkg: pkg_type=app
                url=http://www.mucommander.com/download/mucommander-0_9_0.dmg
-               archive_type=dmg archive_path=muCommander.pkg
+               archive_type=dmg archive_path=muCommander.app
       sudo: yes
