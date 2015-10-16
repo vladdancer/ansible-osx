@@ -4,6 +4,6 @@
   tasks:
     - name: install macports
       mac_pkg: pkg_name=org.macports.MacPorts pkg_version=1.0
-               url=https://distfiles.macports.org/MacPorts/MacPorts-2.2.0-10.8-MountainLion.pkg
+               url=http://freefr.dl.sourceforge.net/project/macports/MacPorts/2.3.4/MacPorts-2.3.4-10.11-ElCapitan.pkg
       sudo: yes
 
